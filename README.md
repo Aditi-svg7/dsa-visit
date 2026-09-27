@@ -14,6 +14,8 @@ Data structures manage how data is stored and accessed. Algorithms focus on proc
 
 ### Programming :
 
+code basics.
+
 Actually being able to understand code syntax and basic operation, so you can start implementing.
 
 Input and Output, Conditional Statements, For loop, While loop, Function, Classes and Objects
@@ -21,5 +23,7 @@ Input and Output, Conditional Statements, For loop, While loop, Function, Classe
 ### Complexity Analysis :
 
 These are the study of paramenters that decide the quality of code, how much space it occupies in memory and how fast it can be executed.
+
+Learning this helps you actually determine if your code is efficient or not. Hence, being able to understand "better" from "good" and eventually creating "best" possible solution.
 
 Order of Growth, Asymptotic Analysis, Big-O, Theta, Big – Ω, Time Complexity, Space Complexity
