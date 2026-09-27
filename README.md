@@ -27,3 +27,9 @@ These are the study of paramenters that decide the quality of code, how much spa
 Learning this helps you actually determine if your code is efficient or not. Hence, being able to understand "better" from "good" and eventually creating "best" possible solution.
 
 Order of Growth, Asymptotic Analysis, Big-O, Theta, Big – Ω, Time Complexity, Space Complexity
+
+#Arrays :
+
+Data structure that stores data elements of similar type, which are stored in contiguous memory locations
+
+An array closely mirrors how physical RAM (Random Access Memory) is structured as a linear sequence of numbered bytes
