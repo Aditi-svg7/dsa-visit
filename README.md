@@ -1,7 +1,6 @@
 # dsa-visit
 
-Understanding the implementation of data structures, practicing and documenting things i learned.
-
+Understanding the implementation of data structures, practicing and documenting things i learned. And why.
 
 ## Why
 
