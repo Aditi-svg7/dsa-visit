@@ -40,4 +40,4 @@ Data structure that stores data elements of similar type, which are stored in co
 
 An array closely mirrors how physical RAM (Random Access Memory) is structured as a linear sequence of numbered bytes
 
-Studying arrays in C or C++ bridges the gap between hardware reality and software abstraction and it always will. Because these languages treat arrays as raw blocks of memory, a developer gains deep foundational insights that radically improve how they write, debug, and optimize code in both low-level and high-level environments
+Studying arrays in C or C++ bridges the gap between hardware reality and software abstraction and it always will. Because these languages treat arrays as raw blocks of memory, a developer gains deep foundational insights that radically improve how they write, debug, and optimize code in both low-level and high-level environments.
