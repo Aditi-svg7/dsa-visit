@@ -34,7 +34,7 @@ Learning this helps you actually determine if your code is efficient or not. Hen
 Order of Growth, Asymptotic Analysis, Big-O, Theta, Big – Ω, Time Complexity, Space Complexity
 
 
-## Arrays :
+## [Arrays](https://github.com/Aditi-svg7/dsa-visit/blob/main/Documentations/arrays.md#arrays) :
 
 Data structure that stores data elements of similar type, which are stored in contiguous memory locations
 
