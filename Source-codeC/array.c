@@ -4,17 +4,22 @@
 
 int main(){
     int arr[10], n, i;
+    // Prompt the user to enter the number of elements in the array
     printf("Enter the number of elements in the array: ");
     scanf("%d", &n);
+    // Prompt the user to enter the elements of the array
     printf("Enter %d intergers:\n", n);
     for (i=0;i<n;i++){
         scanf("%d", &arr[i]);
     }
+    // Print the elements of the array
     printf("The elements in the array are :\n");
     for(i=0;i<n;i++){
         printf(" %d ", arr[i]);
     }
+    // Print a new line for better readability
     printf("\n");
+    // Provide a menu for the user to perform various operations on the array
     printf("Enter the operation you want to perform on the array: \n");
     printf("1. Display Array\n");
     printf("2. Find the sum of all elements in the array\n");
@@ -23,25 +28,27 @@ int main(){
     printf("5. Insert an element in the array\n");
     printf("6. Delete an element from the array\n");
     printf("7. Exit\n");
+    // Prompt the user to enter their choice of operation
     printf("Enter your choice: ");
     int choice;
     scanf("%d", &choice);
+    // Switch case to perform the operation based on user input
     switch(choice){
-        case 1:{
+        case 1:{ // Display the elements of the array
             printf("The elements in the array are :\n");
             for(i=0;i<n;i++){
                 printf(" %d ", arr[i]);
             }
             printf("\n");
         break;}
-        case 2:{
+        case 2:{ // Calculate the sum of all elements in the array
             int sum = 0;
             for(i=0;i<n;i++){
                 sum += arr[i];
             }
             printf("The sum of all elements in the array is: %d\n", sum);
         break;}
-        case 3:{
+        case 3:{ // Find the maximum element in the array
             int max = arr[0];
             for(i=1;i<n;i++){
                 if(arr[i] > max){
@@ -50,7 +57,7 @@ int main(){
             }
             printf("The maximum element in the array is: %d\n", max);
         break;}
-        case 4:{
+        case 4:{ // Find the minimum element in the array
             int min = arr[0];
             for(i=1;i<n;i++){
                 if(arr[i] < min){
@@ -59,7 +66,7 @@ int main(){
             }
             printf("The minimum element in the array is: %d\n", min);
         break;}
-        case 5:{
+        case 5:{ // Insert an element in the array
             int pos, val;
             printf("Enter the position where you want to insert the element: ");
             scanf("%d", &pos);
@@ -76,7 +83,7 @@ int main(){
             }
             printf("\n");
         break;}
-        case 6:{
+        case 6:{ // Delete an element from the array
             int del_pos;
             printf("Enter the position of the element you want to delete: ");
             scanf("%d", &del_pos);
@@ -90,7 +97,7 @@ int main(){
             }
             printf("\n");
         break;}
-        case 7:{
+        case 7:{ // Exit the program
             printf("Exiting the program.\n");
         break;}
     }
